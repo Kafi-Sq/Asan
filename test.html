@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title>Asan</title>
+</head>
+
+<body>
+    <main>
+        <div class="head">
+            <input placeholder="Title">
+            <p>12/16/22</p>
+        </div>
+
+
+        <textarea oninput="auto_grow(this)" placeholder="write.."></textarea>
+        <button>Sumbit Entry</button>
+    </main>
+
+</body>
+
+
+<script>
+    function auto_grow(element) {
+        element.style.height = "5px";
+        element.style.height = (element.scrollHeight) + "px";
+    }
+</script>
+
+</html>
