@@ -2,10 +2,11 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(65, 65, 65);
+    background-color: rgb(39, 39, 39);
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* NAVIGATION STYLING */
 .navigation {
     margin: auto;
     margin-top: 20px;
@@ -56,4 +57,52 @@ body {
     color: rgb(235, 235, 235);
     margin-left: -10px;
     font-size: 16px;
+}
+/* NAVIGATION STYLING */
+
+.container{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    column-gap: 10px;
+}
+
+.card {
+    width: 350px;
+    background-color: #4e4e4e;
+    color: white;
+    margin: 20px;
+}
+
+.card .title {
+    display: flex;
+    align-items: baseline;
+    padding: 4px 15px;
+}
+
+.card .title .header {
+    font-size: 25px;
+    margin: 0;
+}
+.card .title .date {
+    font-size: 14px;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.card .body {
+    padding: 10px 15px;
+}
+.card .body p {
+    margin: 0;
+}
+
+.card .seeMore button {
+    margin-left: 240px;
+    margin-bottom: 10px;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    cursor: pointer;
 }
