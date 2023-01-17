@@ -3,19 +3,11 @@ import classes from './Nav.module.css'
 
 function Nav() {
     return (
-        <header className={classes.navigation}>
-            <p className={classes.mainLinks}><Link to='/'>All blogs</Link></p>
-            <p className={classes.mainLinks}><Link to='/writing-page'>Create</Link></p>
-            <div className={classes.divider}></div>
-            <p>Tech</p>
-            <p>Education</p>
-            <p>News</p>
-            <p>Personal</p>
-            <p>General</p>
-            <div className={classes.divider}></div>
-            <input type="text" placeholder="search" />
-            <i class="fa-solid fa-magnifying-glass"></i>
-        </header>
+        <div className={classes.header}>
+            <p><Link to='/'>Home</Link></p>
+            <p><Link to='/'>Prompts</Link></p>
+            <p><Link to='/writing-page'>Write</Link></p>
+        </div>
     )
 }
 
