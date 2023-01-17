@@ -1,0 +1,25 @@
+.Thissection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.btnClass {
+    text-align: right;
+}
+
+.card {
+    background-color: rgb(84, 84, 84);
+    border-radius: 10px;
+    padding: 8px 0 0 8px;
+    color: rgb(216, 216, 216);
+}
+
+.card h2 {
+    margin: 0;
+}
+
+.card p {
+    margin: 6px 0;
+}
