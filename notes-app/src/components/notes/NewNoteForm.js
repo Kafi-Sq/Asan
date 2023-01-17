@@ -1,13 +1,32 @@
+import { useRef } from 'react'
+
 import classes from './NewNoteForm.module.css'
 
-function NewNoteForm() {
+function NewNoteForm(props) {
+    const titleInput = useRef()
+    const bodyText = useRef()
+    
+    function SubmitHandler(event){
+        event.preventDefault()
+
+        const enteredTitle = titleInput.current.value
+        const enteredText = bodyText.current.value
+
+        const NoteData = {
+            title: enteredTitle,
+            body: enteredText
+        }
+
+        props.OnAddNote(NoteData)
+    }
+
     return (
-        <form>
+        <form onSubmit={SubmitHandler}>
             <div className={classes.control}>
-                <input type='text' required id='title' placeholder='Title' />
+                <input type='text' required id='title' placeholder='Title' ref={titleInput}/>
             </div>
             <div>
-                <textarea />
+                <textarea ref={bodyText}/>
             </div>
             <div className={classes.btnDiv}>
                 <button>Submit</button>
