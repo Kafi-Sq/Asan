@@ -2,10 +2,7 @@
 
 React app to write notes, or maybe in the future and with more functinality, blogs.
 
-[Here](https://splendid-choux-3b3d35.netlify.app/) is the website for the project.
-
-The project is hosted on netlify, the 'see more' button is not fully developed yet.
-For now you can add a note and see it in the prompts page.
+[Here](https://splendid-choux-3b3d35.netlify.app/) is the website for the project.The project is hosted on netlify.
 
 ### `Future Implementations`
 
