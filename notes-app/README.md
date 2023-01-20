@@ -2,7 +2,7 @@
 
 React app to write notes, or maybe in the future and with more functinality, blogs.
 
-[Here](https://splendid-choux-3b3d35.netlify.app/) is the website for the project.The project is hosted on netlify.
+[Here](https://incomparable-madeleine-b61519.netlify.app/) is the website for the project.The project is hosted on netlify.
 
 ### `Future Implementations`
 
